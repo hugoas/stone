@@ -1,0 +1,5 @@
+pandas==1.5.3
+psycopg2-binary==2.9.6
+tqdm==4.65.0
+SQLAlchemy==2.0.7
+dateutil==2.8.2
