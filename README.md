@@ -124,5 +124,5 @@ Sinta-se à vontade para abrir issues ou enviar pull requests para melhorias.
 
 ---
 
-Feito com ♥ por [Hugo](https://github.com/hugoas).
+Feito por [Hugo](https://github.com/hugoas).
 
