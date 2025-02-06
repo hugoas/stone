@@ -69,12 +69,7 @@ A tabela gerada pelo processo ETL possui o seguinte esquema:
 
 ### Configuração do Banco de Dados
 
-O banco de dados PostgreSQL é configurado no serviço `db` do `docker-compose.yml`:
-- Host: `db`
-- Usuário: `postgres`
-- Senha: `has2582`
-- Porta: `5432`
-- Banco: `postgres`
+O banco de dados PostgreSQL é configurado no serviço `db` do `docker-compose.yml`
 
 A variável de ambiente `DATABASE_URL` é usada para conectar ao banco de dados:
 ```
@@ -117,10 +112,7 @@ O projeto adota o modelo **Medalhão** (Bronze, Silver, Gold):
 
 - Certifique-se de que o arquivo JSON esteja disponível no diretório `data/` antes de executar o ETL.
 - O schema da tabela será criado automaticamente durante a execução do script ETL caso ainda não exista.
-
-## Contribuição
-
-Sinta-se à vontade para abrir issues ou enviar pull requests para melhorias.
+- Pode haver erros ao tentar realizar o download dos arquivos zip por serem muito grandes para o git.
 
 ---
 
